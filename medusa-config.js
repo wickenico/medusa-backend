@@ -46,7 +46,7 @@ const plugins = [
   {
     resolve: `@medusajs/file-local`,
     options: {
-      // optional
+      upload_dir: "uploads",
     },
   },
   // To enable the admin plugin, uncomment the following lines and run `yarn add @medusajs/admin`
