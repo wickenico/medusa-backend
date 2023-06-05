@@ -47,6 +47,7 @@ const plugins = [
     resolve: `@medusajs/file-local`,
     options: {
       upload_dir: "uploads",
+      backend_url: "https://seal-app-6quwi.ondigitalocean.app",
     },
   },
   // To enable the admin plugin, uncomment the following lines and run `yarn add @medusajs/admin`
